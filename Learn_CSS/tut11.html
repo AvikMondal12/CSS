@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute & nth child pseudo Selectors </title>
+    <style>
+        a[target='_self']{      /*It is denoted by the target ..'target="_blank" use for open the link in a ne tab '*/
+            color: rgb(181, 13, 13);
+        }
+        input[type='text']{     /*This is agree to aplicable where the input type text 'depend on [type="which you give"]*/
+            border: 5px solid green;
+        }
+        /*
+        li:nth-child(3){  //this is use for apliclable only for the 3 number chlid 
+            color: red;
+        }
+        li:nth-child(2n){  //this is use for apliclable for one by one because the 2n 'depend on the n value'
+            color: blue;
+        }
+        li:nth-child(odd){  /*This is aplicalbe for the only odd number child.*/
+            /* background-color: green;
+            display: inline;
+        }*/
+        li:nth-child(4n+3){     /*In that case it will be first check after the + value then check the'n' value*/
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="http://google.com" target="blank">go to google</a></h1>
+        <h1><a href="http://facebook.com" target="_self">go to facebook</a></h1>
+        <form action="" class="form-handle">
+            <input type="text" placeholder="Enter your name">
+            <input type="number" placeholder="Enter your mobile number">
+        </form>
+        <ul>
+            <li class="item" id="item1">Item-1</li>
+            <li class="item" id="item2">Item-2</li>
+            <li class="item" id="item3">Item-3</li>
+            <li class="item" id="item4">Item-4</li>
+            <li class="item" id="item5">Item-5</li>
+            <li class="item" id="item6">Item-6</li>
+            <li class="item" id="item7">Item-7</li>
+            <li class="item" id="item8">Item-8</li>
+            <li class="item" id="item9">Item-9</li>
+            <li class="item" id="item10">Item-10</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float & Clear Explained</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 2px solid purple;
+            width: 600px;
+            margin: auto;
+
+        }
+
+        h1 {
+            text-align: center;
+            background-color:lightcoral;
+            border-top: 4px solid rgb(75, 63, 63);
+            
+        }
+
+        .item {
+            border: 2px solid red;
+            margin: 6px;
+            padding: 10px;
+            background-color: lightcyan;
+
+        }
+
+        #fruit {
+            width: 47%;
+            float: left;
+        }
+
+        #glass {
+            width: 47%;
+            float: right;
+        }
+
+        #computer {
+            width: 97.5%;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruit" class="item">
+            <h3>
+                Fruits
+            </h3>
+            <p id="furitpara">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, error voluptatum qui reprehenderit
+                adipisci ratione eum nulla vitae asperiores! Quod recusandae animi iusto delectus nobis, perspiciatis
+                accusamus fugit voluptatum ex!
+            </p>
+        </div>
+        <div id="glass" class="item">
+            <h3>
+                glass
+            </h3>
+            <p id="glasspara">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, error voluptatum qui reprehenderit
+                adipisci ratione eum nulla vitae asperiores! Quod recusandae animi iusto delectus nobis, perspiciatis
+                accusamus fugit voluptatum ex!
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>
+                computer
+            </h3>
+            <p id="computerpara">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, error voluptatum qui reprehenderit
+                adipisci ratione eum nulla vitae asperiores! Quod recusandae animi iusto delectus nobis, perspiciatis
+                accusamus fugit voluptatum ex!
+            </p>
+        </div>
+
+    </div>
+</body>
+
+</html>

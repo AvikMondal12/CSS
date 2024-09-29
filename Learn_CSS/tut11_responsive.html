@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em, rem, vh and vw units + Responsive design Explained </title>
+    <style>
+        h1{
+            text-align: center;
+
+        }
+        .container{
+            font-size: 5px;
+            border: 3px solid rebeccapurple;
+            width: 100vw; /*100vw means 100% 50 means 50%*/
+            height: 100vh;/*100vh means 100% 50 means 50%*/
+        }
+        #first{
+            /* font-size: 3em;
+            padding: 3em;/*because that time it can't take the parent value it takes the recent use em value .*/
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="first">This is first hedding</h1>
+        <h1 id="second">This is second hedding</h1>
+        <h1 id="third">This is third hedding</h1>
+    </div>
+</body>
+</html>

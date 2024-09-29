@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex_box</title>
+    <style>
+        .container{
+            height: 560px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            /* flex-direction: column-reverse;
+            flex-direction: row-reverse; 
+            flex-flow:row wrap;
+            justify-content: center;
+            align-items: center;
+            /* align-items: flex-end; 
+            align-items: stretch;*/
+        }
+        .box{
+           height: 200px;
+           width: 200px;
+            border: 2px solid rgb(20, 13, 13);
+            background-color: tomato;
+            margin: 10px;
+            padding: 4px;
+            text-align: center;
+            
+        }
+        #box1{
+            /*order: 2;
+            flex-grow: 2;*/
+            
+        }
+        #box2{
+            /*flex-grow: 3;
+            flex-shrink: 3;
+            width: 300px;*/
+            flex-basis: 160px;
+        }
+        #box3{
+            flex: 2 2 250px;
+            align-self: center;
+        }
+        #box4{
+            
+        }
+        #box5{
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">First Box</div>
+        <div class="box" id="box2">Second Box</div>
+        <div class="box" id="box3">Third Box</div>
+        <!-- <div class="box" id="box4">Fourth Box</div>
+        <div class="box" id="box5">Fivth Box</div> -->
+    </div>
+</body>
+</html>
